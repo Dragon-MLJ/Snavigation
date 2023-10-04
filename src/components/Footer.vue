@@ -5,11 +5,11 @@
       <span class="year">{{ fullYear }}</span>
       <span
         class="anthor"
-        @click="jumpTo(copyrightLink ?? 'https://github.com/imsyy/Snavigation')"
+        @click="jumpTo(copyrightLink ?? 'https://github.com/Dragon-MLJ/Snavigation/')"
       >
         {{ siteAnthor }}
       </span>
-      <span v-if="icp" class="icp" @click="jumpTo('https://beian.miit.gov.cn')">
+      <span v-if="icp" class="icp" @click="jumpTo('https://icp.gov.moe/?keyword=20238634')">
         {{ icp }}
       </span>
       <span class="about" @click="aboutSiteModal = true">关于</span>
@@ -31,7 +31,7 @@
             <n-button
               strong
               secondary
-              @click="jumpTo('https://github.com/imsyy/Snavigation')"
+              @click="jumpTo('https://github.com/Dragon-MLJ/Snavigation/')"
             >
               Github
             </n-button>
